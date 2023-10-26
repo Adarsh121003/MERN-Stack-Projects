@@ -1,0 +1,32 @@
+.logo-image{
+    height: 60px;
+    width: 130px;
+}
+.icon-style{
+    color: white; 
+  transition: color 0.3s;
+}
+.icon-style:hover{
+    color: green;
+}
+.prt-2{
+    background-color: whitesmoke;
+}
+/* Styles for small screens */
+@media (max-width: 768px) {
+    .logo-image {
+        height: 40px; 
+        width: 90px; 
+    }
+
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .logo-image {
+        height: 50px; 
+        width: 110px; 
+    }
+
+    
+}

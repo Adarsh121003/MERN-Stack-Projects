@@ -1,0 +1,130 @@
+/* Set background color for the entire page */
+body {
+  background-color: #eb6556;
+}
+
+/* Styles for the main app container */
+/* App Container */
+.app-container h1 {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* Button style for adding tasks */
+.design {
+  height: 30px;
+  background-color: green !important;
+  font-weight: bolder;
+  font-size: large;
+  color: white;
+}
+
+/* Input style for entering task text */
+.design1 {
+  height: 40px;
+  font-weight: bold;
+}
+
+/* Button style for task entry */
+.design3 {
+  width: 25%;
+  font-weight: bolder;
+  font-size: large;
+  height: 30%;
+  background-color: whitesmoke;
+  margin-left: 40%;
+}
+
+/* Container for the main app content */
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles for the input container */
+/* Input Container */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Styles for the task list */
+/* Task List */
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Styles for individual task items */
+/* Task Item */
+.task-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: larger;
+  font-weight: bold;
+  background-color: white;
+}
+
+/* Styles for task buttons within each task item */
+/* Task Buttons */
+.task-buttons {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+  align-items: flex-end;
+}
+
+/* Styles for common button properties */
+/* Button Styles */
+button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Delete button style */
+.delete-button {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+/* Edit button style */
+.edit-button {
+  background-color: #3498db;
+  color: #fff;
+}
+
+/* Media queries for responsive design */
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 600px) {
+  /* Adjust padding for smaller screens */
+  .app-container {
+    padding: 10px;
+  }
+
+  /* Adjust margin for smaller screens */
+  .input-container {
+    margin-bottom: 10px;
+  }
+
+  /* Adjust padding and margin for smaller screens */
+  .task-item {
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+
+  /* Adjust padding for buttons on smaller screens */
+  button {
+    padding: 3px 8px;
+  }
+}

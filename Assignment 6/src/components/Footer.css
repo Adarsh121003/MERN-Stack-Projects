@@ -1,0 +1,27 @@
+   .footer-style{
+    background-color: #343a40;
+        color: #ffffff;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+
+   }
+  
+   .footer-style ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .footerfooter-style ul li {
+    margin-bottom: 5px;
+  }
+  @media (max-width: 767px) {
+    .footer-style .row .col-lg-3 {
+      margin-left: 80%;
+      transform: translateX(-50%);
+      
+      justify-content: center;
+      margin-bottom: 0% !important;
+    }
+  }
+
